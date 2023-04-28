@@ -22,7 +22,7 @@ func ClassifyPrices(prices []int) (int, error) {
 	var decrescente bool = true
 
 	//loop para checkar elementos e comparar com o da frente, atribuindo crescente ou decrescente
-	for i := 0; i < len(prices)-1 i++ {
+	for i := 0; i < len(prices)-1; i++ {
 		if prices[i] < prices[i+1] {
 			decrescente = false
 			break
